@@ -78,7 +78,7 @@ export default async function AddEventPage() {
             id="form_description"
             type="text"
             name="description"
-            className="shadow appearance-none border rounded w-full h-32 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded resize-none  w-full h-32 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             required
           />
         </div>
