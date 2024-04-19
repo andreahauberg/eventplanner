@@ -12,6 +12,7 @@ export default async function EventPage({ params }) {
     "https://svmitemswsfqelejovkc.supabase.co/rest/v1/events?id=eq." + uuid,
     {
       headers: headersList,
+      cache: "no-store",
     }
   );
 
