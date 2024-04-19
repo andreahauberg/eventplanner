@@ -1,5 +1,8 @@
+export const dynamic = "force-dynamic";
+
 export default async function EventPage({ params }) {
   const uuid = params.uuid;
+  console.log(uuid);
   let headersList = {
     Accept: "application/json",
     apikey: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
